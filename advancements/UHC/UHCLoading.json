@@ -1,0 +1,28 @@
+﻿{
+ "display":{
+  "icon":{
+   "item":"minecraft:golden_apple",
+   "data":0
+  },
+  "title":{
+   "text":"\u00a7l\u00a74U\u00a76H\u00a79C"
+  },
+  "background":"minecraft:textures/blocks/gold_block.png",
+  "description":{
+   "text":"\u00a76UHC"
+  },
+  "show_toast":false,
+  "announce_to_chat":false,
+  "frame":"challenge"
+ },
+ "criteria":{
+  "UHCstart":{
+   "trigger":"minecraft:tick",
+   "conditions":{
+   }
+  }
+ },
+ "rewards":{
+  "function":"UHC:UHCLoading"
+ }
+}

@@ -1,0 +1,16 @@
+scoreboard teams option red nametagVisibility always
+scoreboard teams option blue nametagVisibility always
+scoreboard teams option green nametagVisibility always
+scoreboard teams option yellow nametagVisibility always
+scoreboard teams option gold nametagVisibility always
+scoreboard teams option purple nametagVisibility always
+scoreboard teams option aqua nametagVisibility always
+scoreboard teams option dark_gray nametagVisibility always
+scoreboard teams option white nametagVisibility always
+scoreboard teams option black nametagVisibility always
+scoreboard teams option dark_blue nametagVisibility always
+scoreboard teams option dark_green nametagVisibility always
+scoreboard teams option dark_aqua nametagVisibility always
+scoreboard teams option dark_red nametagVisibility always
+scoreboard teams option light_purple nametagVisibility always
+scoreboard teams option gray nametagVisibility always

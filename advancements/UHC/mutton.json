@@ -1,0 +1,33 @@
+﻿{
+ "display":{
+  "icon":{
+   "item":"minecraft:mutton",
+   "data":0
+  },
+  "title":{
+   "text":"Raw Mutton"
+  },
+  "description":{
+   "text":"Will auto-cook mutton"
+  },
+  "show_toast":false,
+  "announce_to_chat":false,
+  "frame":"challenge"
+ },
+ "criteria":{
+  "mutton":{
+   "trigger":"minecraft:inventory_changed",
+   "conditions":{
+    "items":[
+	 {
+	  "item":"minecraft:mutton",
+	  "data":0
+	 }
+	]
+   }
+  }
+ },
+ "rewards":{
+  "function":"UHC:muttonload"
+ }
+}

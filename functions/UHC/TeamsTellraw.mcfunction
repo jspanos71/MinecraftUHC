@@ -1,0 +1,1 @@
+tellraw @a [{"text":"\u968a\u4f0d\u5206\u914d\u5df2\u5b8c\u6210","color":"aqua","bold":true}]

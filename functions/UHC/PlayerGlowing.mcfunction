@@ -1,0 +1,1 @@
+effect @e[type=Player] minecraft:glowing 65535 0 true

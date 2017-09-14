@@ -1,0 +1,34 @@
+﻿{
+ "display":{
+  "icon":{
+   "item":"minecraft:iron_ore",
+   "data":1
+  },
+  "title":{
+   "text":"Gold Ore"
+  },
+  "background":"minecraft:textures/blocks/iron_ore.png",
+  "description":{
+   "text":"Will auto-smelt gold"
+  },
+  "show_toast":false,
+  "announce_to_chat":false,
+  "frame":"challenge"
+ },
+ "criteria":{
+  "NFI":{
+   "trigger":"minecraft:inventory_changed",
+   "conditions":{
+    "items":[
+	 {
+	  "item":"minecraft:gold_ore",
+	  "data":0
+	 }
+	]
+   }
+  }
+ },
+ "rewards":{
+  "function":"UHC:nofiredgoldload"
+ }
+}

@@ -1,0 +1,33 @@
+﻿{
+ "display":{
+  "icon":{
+   "item":"minecraft:chicken",
+   "data":0
+  },
+  "title":{
+   "text":"Raw Chicken"
+  },
+  "description":{
+   "text":"Cooked Chicken"
+  },
+  "show_toast":false,
+  "announce_to_chat":false,
+  "frame":"challenge"
+ },
+ "criteria":{
+  "chicken":{
+   "trigger":"minecraft:inventory_changed",
+   "conditions":{
+    "items":[
+	 {
+	  "item":"minecraft:chicken",
+	  "data":0
+	 }
+	]
+   }
+  }
+ },
+ "rewards":{
+  "function":"UHC:chickenload"
+ }
+}

@@ -1,0 +1,1 @@
+worldborder set 64 2400

@@ -1,0 +1,33 @@
+﻿{
+ "display":{
+  "icon":{
+   "item":"minecraft:porkchop",
+   "data":0
+  },
+  "title":{
+   "text":"Raw Pork"
+  },
+  "description":{
+   "text":"Will auto-cook pork"
+  },
+  "show_toast":false,
+  "announce_to_chat":false,
+  "frame":"challenge"
+ },
+ "criteria":{
+  "porkchop":{
+   "trigger":"minecraft:inventory_changed",
+   "conditions":{
+    "items":[
+	 {
+	  "item":"minecraft:porkchop",
+	  "data":0
+	 }
+	]
+   }
+  }
+ },
+ "rewards":{
+  "function":"UHC:porkchopload"
+ }
+}

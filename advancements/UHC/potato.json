@@ -1,0 +1,33 @@
+﻿{
+ "display":{
+  "icon":{
+   "item":"minecraft:potato",
+   "data":0
+  },
+  "title":{
+   "text":"Potato"
+  },
+  "description":{
+   "text":"Will auto-cook potatoes"
+  },
+  "show_toast":false,
+  "announce_to_chat":false,
+  "frame":"challenge"
+ },
+ "criteria":{
+  "potato":{
+   "trigger":"minecraft:inventory_changed",
+   "conditions":{
+    "items":[
+	 {
+	  "item":"minecraft:potato",
+	  "data":0
+	 }
+	]
+   }
+  }
+ },
+ "rewards":{
+  "function":"UHC:potatoload"
+ }
+}

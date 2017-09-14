@@ -1,0 +1,33 @@
+﻿{
+ "display":{
+  "icon":{
+   "item":"minecraft:fish",
+   "data":0
+  },
+  "title":{
+   "text":"Raw Fish"
+  },
+  "description":{
+   "text":"Cooked Fish"
+  },
+  "show_toast":false,
+  "announce_to_chat":false,
+  "frame":"challenge"
+ },
+ "criteria":{
+  "F0":{
+   "trigger":"minecraft:inventory_changed",
+   "conditions":{
+    "items":[
+	 {
+	  "item":"minecraft:fish",
+	  "data":0
+	 }
+	]
+   }
+  }
+ },
+ "rewards":{
+  "function":"UHC:fish0load"
+ }
+}

@@ -1,0 +1,1 @@
+scoreboard teams join NoTeam @p

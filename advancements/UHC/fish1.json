@@ -1,0 +1,33 @@
+﻿{
+ "display":{
+  "icon":{
+   "item":"minecraft:fish",
+   "data":1
+  },
+  "title":{
+   "text":"Raw Salmon"
+  },
+  "description":{
+   "text":"Will auto-cook salmon"
+  },
+  "show_toast":false,
+  "announce_to_chat":false,
+  "frame":"challenge"
+ },
+ "criteria":{
+  "F1":{
+   "trigger":"minecraft:inventory_changed",
+   "conditions":{
+    "items":[
+	 {
+	  "item":"minecraft:fish",
+	  "data":1
+	 }
+	]
+   }
+  }
+ },
+ "rewards":{
+  "function":"UHC:fish1load"
+ }
+}
