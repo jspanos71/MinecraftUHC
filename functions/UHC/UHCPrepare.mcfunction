@@ -1,5 +1,6 @@
+scoreboard players tag @a[tag=OP] remove OP
 scoreboard players tag @p add OP
-difficulty 0
+difficulty peaceful
 gamerule logAdminCommands false
 gamerule commandBlockOutput false
 gamerule spawnRadius 5
@@ -9,10 +10,10 @@ title @p title [{"text":"U","color":"red","bold":"true"},{"text":"H","color":"go
 title @p subtitle {"text":"SeraphicCraft UHC","color":"gray"}
 fill ~10 200 ~10 ~-10 205 ~-10 minecraft:barrier 0 outline
 fill ~9 205 ~9 ~-9 205 ~-9 minecraft:air
-summon minecraft:armor_stand ~ 201 ~ {NoGravity:1,Invisible:1,Small:1,NoGranity:1,ArmorItems:[{},{},{},{id:"minecraft:gold_block",Count:1b,Damage:0s}],CustomName:"UHC",CustomNameVisible:1}
+summon minecraft:armor_stand ~ 201 ~ {NoGravity:1,Invisible:1,Small:1,NoGravity:1,ArmorItems:[{},{},{},{id:"minecraft:gold_block",Count:1b,Damage:0s}],CustomName:"UHC",CustomNameVisible:1}
 scoreboard players tag @e[type=armor_stand] add UHC
-effect @p 15 3 0 true
-effect @p 16 3 0 true
+effect @p blindness 3 0 true
+effect @p night_vision 3 0 true
 tp @p ~ 202 ~
 spawnpoint @p ~ 201 ~
 setworldspawn ~ 201 ~

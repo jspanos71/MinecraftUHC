@@ -1,3 +1,3 @@
 gamerule doMobSpawning false
-difficulty 0
-difficulty 3
+difficulty peaceful
+difficulty hard
